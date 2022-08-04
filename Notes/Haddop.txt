@@ -1,0 +1,43 @@
+ls: to list down all files in a directory
+ls -a: to list down all files in a dir with hidden files
+ls -l:  to see files with read write operations
+
+hadoop fs -ls / :  to see hadoop files
+hdfs dfs -ls / : to see hadoop files
+
+mkdir xyz : to make dir
+
+hadoop fs -mkdir /upendra : to make dir inside hadoop
+
+hadoop fs -put filename /hadoop_dir : to copy file from linus env to hadoop
+
+hadoop fs -ls /upendra : it will show files under hadoop upendra dir
+
+hadoop fs -copyFromLocal filename /hadoop_dir : to copy file from linus env to hadoop
+
+
+cat filename : to see data inside that file
+
+hadoop fs -cat /upendra/Introduction_Big_data.pdf : to see data inside file under hadoop
+
+
+hadoop fs -get /upendra/Introduction_Big_data.pdf : to get file from Hadoop env to local (linux)
+
+hadoop fs -copyToLocal /upendra/Introduction_Big_data.pdf : to get file from Hadoop env to local (linux)
+
+
+### Write top 100 linux command for your HDFS:
+
+- move a file
+- kill a process
+- renaming a file
+- tree structure
+- check disk usage
+
+submit your zip file along with your command and your file that you have used during execution
+
+
+send this task: shivan@ineuron.ai   
+                monal@ineuron.ai   cc: shudhanshu@ineuron.ai
+				
+
